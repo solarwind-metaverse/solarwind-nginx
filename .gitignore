@@ -1,0 +1,8 @@
+# generated files
+/logs
+nginx.conf
+
+# other
+.env
+/ssl/zero-ssl
+.DS_Store
