@@ -14,13 +14,13 @@ spec:
     spec:
       containers:
       - name: solarwind-nginx
-        image: vhalme/solarwind-nginx:x86_0.0.16
+        image: vhalme/solarwind-nginx:x86_0.0.19
         ports:
         - containerPort: 80
         - containerPort: 443
         env:
         - name: NGINX_HOME
-          value: "/nginx"
+          value: "/app/solarwind-nginx"
         - name: SSL_CERTS_CONF
           value: "ssl/zero-ssl/ssl-certs.conf"
         - name: WEB_HTTP_PORT
